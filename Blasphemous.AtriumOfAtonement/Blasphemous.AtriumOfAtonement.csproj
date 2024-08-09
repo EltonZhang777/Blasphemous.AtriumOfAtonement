@@ -8,8 +8,8 @@
     <Product>Atrium of Atonement</Product>
     <Authors>NewbieElton</Authors>
     <Company>NewbieElton</Company>
-    <Description>Offers bossrush QoL, re-challenge bosses and Miriam parkours</Description>
-    <Version>0.0.1</Version>
+    <Description>A Blasphemous mod that offers bossrush QoL (including loadout selection, challenge single boss, etc.)</Description>
+    <Version>0.1.0</Version>
 
     <TargetName>AtriumOfAtonement</TargetName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
