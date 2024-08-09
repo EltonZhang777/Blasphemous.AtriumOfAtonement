@@ -1,0 +1,82 @@
+lang: en
+
+BS01.name: Ten Piedad
+BS03.name: Our Lady of The Chared Visage
+BS04.name: Tres Angustias
+BS05.name: Melquiades, The exhumed ArchBishop
+BS06.name: Exposito, Scion of Abjuration
+BS07.name: His Holiness Escribar
+BS12.name: Esdras, of the Anointed Legion
+BS13.name: Warden of the Silent Sorrow
+BS14.name: Quirce, Returned by The Flames
+BS16.name: Crisanta of the Wrapped Agony
+BS16_2.name: Crisanta of the Wrapped Agony (the Three Holy Visages)
+BS17.name: The Last Son of Miracle
+BS101_1.name: Amanecida of the Golden Blades
+BS101_2.name: Amanecida of the Bejeweled Arrow
+BS101_3.name: Amanecida of the Chiselled Steel
+BS101_4.name: Amanecida of the Molten Thorn
+BS101_5.name: Laudes, the First of the Amanecidas
+BS201.name: Isidora, Voice of the Dead
+BS202.name: Sierpes
+
+BossFight.name: Duel of Faith
+
+ABJ01.name: Abjuration to the Stinging Pains
+ABJ01.description: Halves max HP and flask counts (remaining count is rounded down)
+ABJ02.name: Abjuration to the Holy Anointment
+ABJ02.description: Halves max fervour
+ABJ03.name: Abjuration to the Mea Culpa
+ABJ03.description: Halves attack power
+ABJ04.name: Abjuration to Soledad
+ABJ04.description: Halves bead slots (remaining count is rounded down)
+ABJ05.name: Abjuration to the High Wills
+ABJ05.description: Disables permanent upgrades of the following: health, fervour, flask amount, flask potency, bead slots, and sword attack power
+
+BossRushLoadoutMenu.title: Loadout Save/Load
+BossRushLoadoutMenu.current_slot: Current Loadout Slot
+BossRushLoadoutMenu.slot: Slot
+BossRushLoadoutMenu.health: Health
+BossRushLoadoutMenu.fervour: Fervour
+BossRushLoadoutMenu.flask_count: Number of flasks
+BossRushLoadoutMenu.beads: Beads
+BossRushLoadoutMenu.sword_heart: Sword Heart
+BossRushLoadoutMenu.prayer: Prayer
+BossRushLoadoutMenu.action_save: Save current state to loadout
+BossRushLoadoutMenu.action_load: Apply selected Loadout
+BossRushLoadoutMenu.action_auto_load: Automatically Apply selected Loadout when starting BossRush
+
+lang: zh
+
+BS01.name: 特彼达德
+BS03.name: 焦容圣母
+BS04.name: 特雷斯·安古斯塔斯
+BS05.name: 梅尔基亚德斯，掘墓大主教
+BS06.name: 弃婴，放逐之裔
+BS07.name: 圣王埃斯科利巴
+BS12.name: 圣膏军的埃达斯
+BS13.name: 默哀守望者
+BS14.name: 奎尔斯，浴火归来者
+BS16.name: 克兰莎，束裹之痛
+BS16_2.name: 克兰莎，束裹之痛（神圣三一）
+BS17.name: 奇迹幼子
+BS101_1.name: 金刃阿马内奇达
+BS101_2.name: 玉矢阿马内奇达
+BS101_3.name: 雕钢阿马内奇达
+BS101_4.name: 熔棘阿马内奇达
+BS101_5.name: 罗拉德斯，首位阿马内奇达
+BS201.name: 伊西多拉，亡者之声
+BS202.name: 毒蛇
+
+BossFight.name: 信仰决斗
+
+ABJ01.name: 弃绝六刺之痛
+ABJ01.description: 最大生命值和圣水瓶数量减半（剩余数量向下取整）
+ABJ02.name: 弃绝圣膏洗礼
+ABJ02.description: 最大热情值减半
+ABJ03.name: 弃绝罪孽之刃
+ABJ03.description: 攻击力减半
+ABJ04.name: 弃绝念珠奥秘
+ABJ04.description: 念珠槽位数减半（剩余数量向下取整）
+ABJ05.name: 弃绝至高意志
+ABJ05.description: 取消以下所有项目的升级：生命值、热情值、圣水瓶数量、圣水瓶回复效力、念珠槽位数、孽刃攻击力
