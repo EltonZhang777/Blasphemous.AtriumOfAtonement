@@ -11,7 +11,14 @@ namespace Blasphemous.AtriumOfAtonement.BossRush.ModBossRushCourses;
 /// </summary>
 public class ModBossRushCourse : BossRushCourse
 {
+    /// <summary>
+    /// The unique ID of a BossRushCourse
+    /// </summary>
     public BossRushManager.BossRushCourseId courseId;
+
+    /// <summary>
+    /// The displayed name of the BossRushCourse
+    /// </summary>
     public string courseName;
 
     /// <summary>
@@ -57,7 +64,10 @@ public class ModBossRushCourse : BossRushCourse
                 score = currentScore,
                 timeRangeInMinutes = new Vector2(minTime, maxTime)
             });
-            currentScore--;
+            if (currentScore > BossRushManager.BossRushCourseScore.F_MINUS)
+            {
+                currentScore--;
+            }
         }
         minTime = 0f;
         maxTime = 0f;
@@ -71,7 +81,10 @@ public class ModBossRushCourse : BossRushCourse
                 score = currentScore,
                 timeRangeInMinutes = new Vector2(minTime, maxTime)
             });
-            currentScore--;
+            if (currentScore > BossRushManager.BossRushCourseScore.F_MINUS)
+            {
+                currentScore--;
+            }
         }
         MaxScoreForFailedRuns = currentScore;
     }

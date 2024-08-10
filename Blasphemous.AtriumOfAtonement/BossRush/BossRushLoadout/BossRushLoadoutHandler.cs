@@ -55,6 +55,9 @@ public class BossRushLoadoutHandler
         loadoutDatas[slotNumber].prayer = Core.InventoryManager.GetPrayerInSlot(0).id;
     }
 
+    /// <summary>
+    /// Save the current state of TPO to the Data object passed in
+    /// </summary>
     public void SaveCurrentStateToLoadout(ref BossRushLoadoutData loadoutData)
     {
         loadoutData.health = Core.Logic.Penitent.Stats.Life.Current;
@@ -69,12 +72,18 @@ public class BossRushLoadoutHandler
         loadoutData.prayer = Core.InventoryManager.GetPrayerInSlot(0).id;
     }
 
+    /// <summary>
+    /// Load the loadout at the specified slot to current state of TPO
+    /// </summary>
     public void LoadSlotToCurrentState(int slotNumber)
     {
         if (!IsSlotIndexInbounds(slotNumber)) return;
         LoadLoadoutToCurrentState(loadoutDatas[slotNumber]);
     }
 
+    /// <summary>
+    /// Load the given loadout to current state of TPO
+    /// </summary>
     public void LoadLoadoutToCurrentState(BossRushLoadoutData loadoutData)
     {
         Core.Logic.Penitent.Stats.Life.Current = loadoutData.health;
@@ -89,6 +98,9 @@ public class BossRushLoadoutHandler
 
     }
 
+    /// <summary>
+    /// Check if the accessed loadout slot is out of bounds.
+    /// </summary>
     public bool IsSlotIndexInbounds(int slotNumber)
     {
         if (!(slotNumber >= 0 && slotNumber < loadoutDatas.Count))
