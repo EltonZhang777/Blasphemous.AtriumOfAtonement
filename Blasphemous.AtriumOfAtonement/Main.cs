@@ -4,11 +4,11 @@ using System;
 namespace Blasphemous.AtriumOfAtonement;
 
 [BepInPlugin(ModInfo.MOD_ID, ModInfo.MOD_NAME, ModInfo.MOD_VERSION)]
-[BepInDependency("Blasphemous.ModdingAPI", "2.3.0")]
-[BepInDependency("Blasphemous.Framework.Levels", "0.1.3")]
-[BepInDependency("Blasphemous.Framework.Menus", "0.3.1")]
-[BepInDependency("Blasphemous.Framework.UI", "0.1.1")]
-[BepInDependency("Blasphemous.CheatConsole", "1.0.0")]
+[BepInDependency("Blasphemous.CheatConsole", "1.0.1")]
+[BepInDependency("Blasphemous.Framework.Levels", "0.1.4")]
+[BepInDependency("Blasphemous.Framework.Menus", "0.3.4")]
+[BepInDependency("Blasphemous.Framework.UI", "0.1.2")]
+[BepInDependency("Blasphemous.ModdingAPI", "2.4.1")]
 internal class Main : BaseUnityPlugin
 {
     public static AtriumOfAtonement AtriumOfAtonement { get; private set; }

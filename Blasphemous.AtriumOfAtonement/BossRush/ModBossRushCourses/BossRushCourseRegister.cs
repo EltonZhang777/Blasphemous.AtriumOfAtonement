@@ -16,7 +16,7 @@ public static class BossRushCourseRegister
     internal static int Total => _courses.Count;
 
     /// <summary>
-    /// Registers a new BossRush course 
+    /// Registers a new ModBossRushCourse 
     /// </summary>
     public static void RegisterBossRushCourse(this ModServiceProvider provider, ModBossRushCourse course)
     {

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using Blasphemous.ModdingAPI.Helpers;
 
 namespace Blasphemous.AtriumOfAtonement;
 
@@ -37,7 +38,6 @@ public class AtriumOfAtonement : BlasMod
         provider.RegisterCommand(new AbjurationsCommand());
         provider.RegisterCommand(new BossFightCommand());
         provider.RegisterCommand(new BossRushLoadoutCommand());
-        provider.RegisterCommand(new BossFightCommand());
 #if DEBUG
         provider.RegisterCommand(new BossRushDebugCommand());
 #endif
@@ -64,8 +64,7 @@ public class AtriumOfAtonement : BlasMod
     {
         base.OnLevelLoaded(oldLevel, newLevel);
 
-        Regex gameLevelsRegex = new(@"D\d\d[B]?Z\d\dS\d\d");
-        if (gameLevelsRegex.IsMatch(newLevel))
+        if (SceneHelper.GameSceneLoaded)
         {
             // it is a game level, but not other scenes like main menu
 
