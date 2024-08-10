@@ -38,7 +38,6 @@ public class AtriumOfAtonement : BlasMod
         provider.RegisterCommand(new AbjurationsCommand());
         provider.RegisterCommand(new BossFightCommand());
         provider.RegisterCommand(new BossRushLoadoutCommand());
-        provider.RegisterCommand(new BossFightCommand());
 #if DEBUG
         provider.RegisterCommand(new BossRushDebugCommand());
 #endif
